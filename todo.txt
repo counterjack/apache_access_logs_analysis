@@ -1,0 +1,28 @@
+# tasks for apache logger 
+
+1. Create django project // Done
+2. Create requirements.txt, readme.md, constants.py // Done
+3. Configure settings
+4. Define static, media urls
+5. Create template directory and create some templates header.html, footer.html, left_nav.html
+6. Create very first Dashboard screen with the following options.
+	a. Show users their previous histories. 
+	b. Give prompt to upload file then in report show the following things
+		A. Total Requests
+		B. Total Unique Requests
+		C. Start time and End Time
+		D. Table having Status codes and their corresponding counts
+		E. Table having ip, request count, Duration ( start, end time ), Location expected and button for detailed analysis ip wise. 
+		F. Table having urls, count
+		G. Table having Devices and their corresponding count.
+ 
+7. Create second screen for IP wise detailed analysis having following options.
+	a. choose file from the uploaded files.
+	b. Enter IP address
+	c. Then after submittting, show the followings in the result.
+		A. Total Vs Unique Requests. ( Prefer Graphs )
+		B. Table having status code and their count.
+		C. Table having devices and their count.
+		D. Start time to end time.
+		E. Expected Location. 
+		F. Requested Urls and their count. 
