@@ -3,7 +3,7 @@ backports.functools-lru-cache==1.5
 billiard==3.5.0.3
 celery==4.1.0
 cycler==0.10.0
-Django==1.11.13
+Django==1.11.15
 kiwisolver==1.0.1
 kombu==4.1.0
 matplotlib==2.2.2
